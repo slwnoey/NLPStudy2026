@@ -1,4 +1,4 @@
-# 🧠 딥러닝 NLP 스터디
+# 딥러닝 NLP 스터디
 
 > Sequence Model → Language Model → Transformer → BERT → CLIP
 
@@ -62,8 +62,8 @@ Dense(64, relu)  →  Dense(1, sigmoid)
 | 실험 A (메인) | 100 | 64 / 32 | 0.3 | - |
 | 실험 B | 50 | 128 / 64 | 0.4 | - |
 
-### 💬 고찰
+### 💬 
 
-단순 형태소 추출보다 **품사 필터링(Noun·Verb·Adjective)** 을 적용했을 때 어휘 사전이 정제되고 모델이 감성 관련 단어에 집중할 수 있었다. Bidirectional 구조는 단방향 대비 문맥 이해력이 높아 정확도 향상에 기여했다.
+단순 형태소 추출보다 **품사 필터링(Noun·Verb·Adjective)** 을 적용했을 때 어휘 사전이 정제되고 모델이 감성 관련 단어에 집중할 수 있었다. 
 
 ---
